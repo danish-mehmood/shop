@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="pin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M18.2281069,31.5940709 C16.2879198,28.6774637 15.157373,25.1758967 15.157373,21.4102763 C15.157373,11.2425615 23.3999345,3 33.5676493,3 C43.7353642,3 51.9779256,11.2425615 51.9779256,21.4102763 C51.9779256,25.1642361 50.8543697,28.6557753 48.9251923,31.5669594 L36.2754878,58.0684096 C35.5617726,59.563661 33.7710514,60.1972212 32.2758001,59.483506 C31.6559175,59.1876229 31.1563417,58.6879831 30.860538,58.0680625 L18.2281069,31.5940709 Z" id="Combined-Shape" stroke="#073863" fill="url(#linearGradient-1)"></path>
+        <circle id="Oval" stroke="#073863" fill="#FFFFFF" cx="33.657373" cy="19.3371771" r="8.83717711"></circle>
+    </g>
+</svg>

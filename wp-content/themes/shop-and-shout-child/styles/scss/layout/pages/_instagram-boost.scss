@@ -1,0 +1,426 @@
+// ----------------------------------------------//
+// ------------ Instagram Boost Info ----------- //
+// --------------------------------------------- //
+.instagram-boost-info-wrapper {
+
+	overflow-x: hidden !important;
+
+	section#hero {
+
+		padding-top: 80px;
+
+		p {
+			max-width: 335px;
+			margin: 0 auto;
+		}
+		.hero-shape-1 {
+			position: absolute;
+			left: -16%;
+			margin-top: calc( 440px - 30vw );
+			transform: rotate(-15deg);
+			
+			img {
+				width: 30vw;
+			}
+		}
+		.hero-shape-2 {
+			display: none;
+		}
+		.ig-rocket {
+			$offset-top: 19px;
+			margin: calc(#{$offset-top} + 20px) 0 25px;
+			position: relative;
+			text-align: center;
+			.ig {
+			}
+			.rocket {
+				width: 115px;
+				position: absolute;
+				bottom: $offset-top;
+				left: calc(50% - 13px);
+			}
+		}
+	}
+
+	section#how-it-works {
+		text-align: center;
+
+		.cards {
+			display: flex;
+			grid-column-gap: 20px;
+			margin: 40px auto 70px;
+			div {
+				flex: 1;
+				img {
+					transition: .4s;
+					transform: scale(.7);
+				}
+
+				&:hover {
+					img {
+						transform: scale(1);
+					}
+				}
+			}
+		}
+	}
+
+	section#graphs {
+
+		background-position: -17% -20px;
+		background-size: 30vw;
+
+		.real-followers-percentage-increase {
+			display: flex;
+			align-items: center;
+			max-width: 450px;
+			margin: 0 auto;
+			padding: 0 20px;
+			height: 200px;
+			& > div {
+				flex: 1 1 110px;
+				text-align: center;
+			}
+
+			.numerator {
+				font-size: 35px;
+				font-weight: 600;
+				.number {
+					font-size: 45px;
+					font-weight: 800;
+				}
+			}
+
+			.seperator {
+				max-width: 120px;
+				margin: 10px auto 5px;
+				border-top: 1px solid black;
+			}
+
+			.arrow {
+				align-self: flex-end;
+				flex: 0 1 145px;
+				.head {
+					$head-size: 12px;
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 0 $head-size $head-size $head-size;
+					border-color: transparent transparent #0099ff transparent;
+					margin: 0 auto;
+				}
+				.stem {
+					width: 10px;
+					height: 20px;
+					transition: 2s ease-in-out;
+					margin: 0 auto 15px;
+					background-color: #0099ff;
+				}
+				.fletching {
+					font-size: 11px;
+					color: #a5a5a5;
+				}
+			}
+
+			&.animate{
+				.arrow .stem {
+					height: 150px;
+				}
+			}
+		}
+		.follower-line-graph {
+
+			margin: 40px 20px 0;
+
+			.graph-inner-desktop,
+			.graph-inner-mobile {
+				border-style: solid;
+				border-radius: 2px;
+				border-width: 0 2px 0 2px;
+				border-color: #e8eeff;
+				height: 400px;
+				margin: 0 auto;
+				background-repeat: no-repeat;
+				background-position: 0 bottom;
+				background-size: auto 100%;
+
+				transition: background-position 4s ease-in-out;
+			}
+			.graph-inner-mobile {
+				display: none;
+			}
+			.graph-outer {
+				position: relative;
+
+				.counter {
+					position: relative;
+					left: 65%;
+					top: 90px;
+					font-size: 50px;
+					font-weight: bold;
+					font-style: italic;
+				}
+
+				.y-axis {
+					position: absolute;
+					bottom: -365px;
+					margin: 10px;
+					width: 100%;
+
+					& > div {
+
+						margin: 65px 0;
+
+						span::after {
+							content: '';
+							display: inline-block;
+							width: calc(100% - 75px);
+							height: 1px;
+							background-color: #2121211f;
+							vertical-align: middle;
+							margin: 0 10px;
+						}
+					}
+				}
+			}
+
+			&.animate {
+				.graph-inner-desktop,
+				.graph-inner-mobile {
+					background-position: 100% bottom;
+				}
+			}
+		}
+	}
+
+	section#testimonials {
+
+		background-position: calc( -15% - 15px ) -20px;
+		background-size: 30vw;
+
+		.testimonials-hearts {
+			position: absolute;
+			right: calc( 50% - 335px );
+			margin-top: 30px;
+			display: none;
+			.mobile {
+				display: none;
+			}
+		}
+
+		.testimonial-card-wrapper {
+			padding: 20px 0;
+			background-repeat: no-repeat;
+
+			.testimonial-card-left {
+				max-width: 800px;
+				margin: 0 auto;
+			}
+			.testimonial-card-right {
+				text-align: right;
+				max-width: 800px;
+				margin: 0 auto;
+			}
+
+			.desktop {
+				transition: .4s;
+				&:hover {
+					transform: scale(1.2);
+				}
+			}
+			.mobile {
+				display: none;
+			}
+		}
+
+		.testimonial-card-wrapper:nth-child(1) {
+			margin-top: 80px;
+		}
+
+		.testimonial-card-wrapper:nth-child(2) {
+			background-position: 50px top;
+		}
+
+		.testimonial-card-wrapper:nth-child(3) {
+			background-position: 90% 40px;
+		}
+	}
+
+	section#bottom-cta {
+		text-align: center;
+
+		.bottom-cta-shape-1 {
+			position: absolute;
+			left: -15vw;
+			margin-top: calc( 116px - 15vw );
+			img {
+				width: 30vw;
+			}
+		}
+		.bottom-cta-shape-2 {
+			display: none;
+			position: absolute;
+			right: calc( -10vw + 20px );
+			margin-top: calc( 116px - 19vw );
+			img {
+				width: 20vw;
+			}
+		}
+	}
+	@media screen and (max-width: 1000px) {
+		section#graphs {
+
+			.follower-line-graph {
+
+				.graph-inner-desktop {
+					margin-left: 67px;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $breakpoint-mobile) {
+
+		section#hero {
+
+			padding-top: 40px;
+		}
+
+		section#how-it-works {
+
+			.cards {
+
+				display: block;
+				margin: 0 auto 20px;
+				max-width: 400px;
+
+				& > div {
+
+					margin: 20px 0;
+					padding: 0 50px;
+					img {
+						transform: none;
+					}
+
+					&:hover {
+						img {
+
+							transform: none;
+						}
+					}
+				}
+			}
+		}
+
+		section#graphs {
+
+			.follower-line-graph {
+				margin: 40px 20px 0;
+				.graph-inner-mobile {
+					display: block;
+					height: 275px;
+					margin-left: 60px;
+				}
+				.graph-inner-desktop {
+					display: none;
+				}
+
+				.graph-outer {
+
+					.counter {
+
+						font-size: 30px;
+						left: calc( 75vw - 100px );
+						top: 30px;
+					}
+
+					.y-axis {
+
+						bottom: -256px;
+
+						& > div {
+							margin: 42px 0;
+						}
+					}
+				}
+			}
+		}
+
+		section#testimonials {
+			
+			.testimonials {
+
+				.testimonial-card-wrapper {
+
+					margin-top: 0;
+
+					.mobile {
+						display: block;
+						margin: 0 auto;
+						max-width: 350px;
+					}
+					.desktop {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	@media screen and (max-width: $breakpoint-mobile) {
+
+		section#graphs {
+
+			.real-followers-percentage-increase {
+
+				.increase-following,
+				.increase-engagement {
+
+					.numerator {
+
+						font-size: 25px;
+						
+						.number {
+
+							font-size: 30px;
+						}
+					}
+
+					.seperator {
+
+						max-width: 80px;
+					}
+
+					.denominator {
+
+					}
+				}
+			}
+
+			.follower-line-graph {
+
+				.graph-outer {
+
+					.y-axis {
+
+						& > div > span {
+
+							font-size: 12px;
+						}
+					}
+				}
+			}
+		}
+
+		section#testimonials {
+			.testimonials-hearts {
+				right: calc( 50% - 175px );
+				margin-top: 11px;
+				.desktop {
+					display: none;
+				}
+				.mobile {
+					display: inline-block;
+				}
+			}
+		}
+	}
+}

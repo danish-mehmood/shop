@@ -1,0 +1,105 @@
+.mission-wrapper {
+
+	#section {
+		p {
+			max-width: 200px;
+		}
+	}
+}
+
+.landing-page.campaign-strategy {
+	p {
+		max-width: 680px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	section#bottom-cta {
+
+		.bottom-cta-shape-3 {
+			position: absolute;
+			left: -10vw;
+			margin-top: calc( 116px - 15vw);
+		}
+
+		@media screen and (max-width: 1100px) {
+
+			.bottom-cta-shape-3  {
+				display: none;
+			}
+
+
+			}
+		}
+	
+
+
+@media screen and (max-width: 1100px) {
+
+	p {
+		max-width: 420px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+
+	section#testimonials {
+		.influencer-testimonial-card {
+			margin-bottom: 20px;
+
+			.body {
+				min-height: 160px;
+			}
+		}
+	}
+
+	section#about {
+		padding-left: 180px;
+
+		&>div {
+			display: flex;
+		}
+		p {
+			text-align: left;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		h2 {
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		h5 {
+
+			text-align: left;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.about-col-left {
+			flex: 1;
+			.about-heart-desktop {
+				vertical-align: middle;
+
+			}
+
+		}
+		.about-col-right {
+			flex: 1;
+			text-align: right;
+		}
+
+		@media screen and (max-width: $breakpoint-mobile) {
+			padding-left: 0;
+
+			&>div {
+				display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="359px" height="349px" viewBox="0 0 359 349" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Web - Shape 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Web---Shape-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-4">
+            <g transform="translate(179.297795, 174.623596) rotate(64.000000) translate(-179.297795, -174.623596) translate(52.797795, 37.123596)">
+                <path d="M197.830603,11.1457177 L220.604641,56.453515 C223.581067,62.374963 221.193654,69.5881148 215.272206,72.5645403 C213.600034,73.4050605 211.754444,73.8428101 209.882911,73.8428101 L164.57507,73.8428101 C157.947653,73.8428101 152.57507,68.4702271 152.57507,61.8428101 C152.57507,59.9884746 153.004815,58.1593678 153.830576,56.4990431 L176.364379,11.1912458 C179.31566,5.25722557 186.51862,2.83923769 192.45264,5.79051873 C194.777442,6.94675755 196.664514,8.82584101 197.830603,11.1457177 Z" fill="#171C34" transform="translate(187.230295, 39.187587) rotate(353.000000) translate(-187.230295, -39.187587) "></path>
+                <rect fill="#0099FF" opacity="0.900000036" transform="translate(126.244521, 148.036741) rotate(-19.000000) translate(-126.244521, -148.036741) " x="26.9445212" y="48.7367406" width="198.6" height="198.6" rx="60"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

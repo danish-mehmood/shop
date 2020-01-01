@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Likes</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-31.7%" y="-28.3%" width="163.3%" height="163.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.874807378   0 0 0 0 0.887361068   0 0 0 0 0.901998299  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-290.000000, -591.000000)">
+            <g id="Instagram-Stats" transform="translate(255.000000, 515.000000)">
+                <g id="Likes" transform="translate(41.000000, 81.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFE2E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M18.7680879,9 C17.4911758,9 16.2958571,9.57540196 15.5,10.53948 C14.7041429,9.57540196 13.5088242,9 12.2319121,9 C9.89843956,9 8,10.8894065 8,13.2118492 C8,15.0304173 9.08952747,17.1338811 11.2383516,19.4638046 C12.892044,21.2568787 14.690956,22.645134 15.2028681,23.0279041 L15.4999011,23.25 L15.7969011,23.0279369 C16.3088791,22.645134 18.1078571,21.2568459 19.7615165,19.4638702 C21.9104396,17.1339467 23,15.0304501 23,13.2118492 C23,10.8894065 21.1015604,9 18.7680879,9 Z" id="Path" fill="#FF6161"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

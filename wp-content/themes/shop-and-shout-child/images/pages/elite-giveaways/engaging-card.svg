@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="286px" viewBox="0 0 227 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>engaging-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.3%" y="-4.2%" width="110.6%" height="108.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="117.005991%" id="linearGradient-2">
+            <stop stop-color="#FD8C8D" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0.839826897%" x2="50%" y2="84.8516306%" id="linearGradient-3">
+            <stop stop-color="#66BFFB" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.2277075%" y1="11.5956347%" x2="59.6114475%" y2="88.4043653%" id="linearGradient-4">
+            <stop stop-color="#7CF6E7" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F99A9B" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.2183019%" y1="10.0762264%" x2="59.5254222%" y2="91.4474812%" id="linearGradient-6">
+            <stop stop-color="#5ACEF9" offset="0%"></stop>
+            <stop stop-color="#19ADE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.5678984%" y1="12.1247489%" x2="59.6114475%" y2="88.4043653%" id="linearGradient-7">
+            <stop stop-color="#FF9B9C" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="engaging-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Engaging---Feature-Card-Copy" filter="url(#filter-1)">
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#000000" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="Group" transform="translate(21.000000, 155.987000)" fill="#5E5E5E" font-family="Muli-Regular, Muli" font-size="14" font-weight="normal">
+                    <text id="Elite-Influencers-create">
+                        <tspan x="17.643" y="14.282">Elite Influencers create</tspan>
+                    </text>
+                    <text id="content-that-stands-out-and">
+                        <tspan x="0.285" y="32.282">content that stands out and</tspan>
+                    </text>
+                    <text id="regularly-generate-an">
+                        <tspan x="22.094" y="50.282">regularly generate an</tspan>
+                    </text>
+                    <text id="engagement-rate-that-is">
+                        <tspan x="12.802" y="68.282">engagement rate that is</tspan>
+                    </text>
+                    <text id="above-average.">
+                        <tspan x="42.37" y="86.282">above average.</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(74.000000, 117.987000)" fill="#171C34" font-family="Muli-Bold, Muli" font-size="15" font-weight="bold">
+                    <text id="ENGAGING">
+                        <tspan x="0.838" y="15.575">ENGAGING</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Engaging" transform="translate(82.500000, 42.000000)" stroke="#073863">
+                <path d="M19.2558307,43.9173679 C17.7228861,43.0027276 16.6961554,41.3277648 16.6961554,39.4129962 C16.6961554,36.5182205 19.0428347,34.1715412 21.9376104,34.1715412 L28.0686245,34.1715412 C30.9634002,34.1715412 33.3100795,36.5182205 33.3100795,39.4129962 C33.3100795,42.3077718 30.9634002,44.6544511 28.0686245,44.6544511 L21.9376104,44.6544511 C21.7636923,44.6544511 21.5917527,44.6459805 21.4221815,44.6294294 C19.6547584,46.4754321 16.8058072,48.4093377 19.2558307,43.9173679 Z" id="Path-2" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M27.5627918,28.4173679 C26.0298472,27.5027276 25.0031165,25.8277648 25.0031165,23.9129962 C25.0031165,21.0182205 27.3497959,18.6715412 30.2445715,18.6715412 L36.3755856,18.6715412 C39.2703613,18.6715412 41.6170406,21.0182205 41.6170406,23.9129962 C41.6170406,26.8077718 39.2703613,29.1544511 36.3755856,29.1544511 L30.2445715,29.1544511 C30.0706534,29.1544511 29.8987138,29.1459805 29.7291426,29.1294294 C27.9617196,30.9754321 25.1127683,32.9093377 27.5627918,28.4173679 Z" id="Path-2" fill="url(#linearGradient-3)" fill-rule="nonzero" transform="translate(33.310079, 24.921541) scale(-1, 1) translate(-33.310079, -24.921541) "></path>
+                <path d="M26.9085218,39.9757025 L26.9701304,39.9211509 C27.0259853,39.8793611 27.0789687,39.8324346 27.1286842,39.7805128 C27.6279308,39.2591099 27.6279308,38.4051286 27.1286842,37.8837257 C26.6411625,37.3745681 25.8601009,37.3745681 25.3725792,37.8837257 C25.3695571,37.8868889 25.3695571,37.8868889 25.3665519,37.890062 L24.6425704,37.8930314 L24.6275941,37.877433 C24.139536,37.3743717 23.3628617,37.3768805 22.8775541,37.8837257 C22.3805793,38.402756 22.378058,39.252004 22.8692374,39.7718269 L24.9864857,41.9830374 L26.9085218,39.9757025 Z" id="Combined-Shape-Copy-8" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                <circle id="Oval-Copy-4" stroke-width="1.5" cx="31" cy="31" r="30.5"></circle>
+                <path d="M32.8447383,26.381017 L32.2079821,26.7157795 C31.9075847,26.8737078 31.5360384,26.7582137 31.3781102,26.4578164 C31.3152223,26.3381966 31.2935213,26.2011816 31.3163666,26.067983 L31.4379763,25.3589445 C31.4936142,25.0345504 31.3860657,24.7035502 31.1503796,24.4738131 L30.635233,23.9716692 C30.3922064,23.7347769 30.3872337,23.3457257 30.624126,23.1026991 C30.7184578,23.0059247 30.8420608,22.9429458 30.9757998,22.9235124 L31.6877149,22.8200651 C32.0134251,22.7727366 32.2949907,22.5681672 32.4406527,22.2730238 L32.7590308,21.6279192 C32.9092295,21.3235835 33.2777025,21.1986307 33.5820382,21.3488294 C33.7032264,21.4086393 33.8013182,21.5067311 33.8611281,21.6279192 L34.1795063,22.2730238 C34.3251683,22.5681672 34.6067339,22.7727366 34.932444,22.8200651 L35.6443591,22.9235124 C35.9802136,22.9723149 36.2129152,23.284141 36.1641127,23.6199955 C36.1446792,23.7537345 36.0817004,23.8773375 35.9849259,23.9716692 L35.4697793,24.4738131 C35.2340932,24.7035502 35.1265447,25.0345504 35.1821827,25.3589445 L35.3037923,26.067983 C35.3611631,26.4024804 35.1365076,26.7201523 34.8020102,26.7775231 C34.6688116,26.8003684 34.5317966,26.7786674 34.4121768,26.7157795 L33.7754206,26.381017 C33.4840966,26.2278589 33.1360624,26.2278589 32.8447383,26.381017 Z" id="Star" fill="url(#linearGradient-5)" fill-rule="nonzero"></path>
+                <path d="M38.1091311,12.819043 L38.1707397,12.7644914 C38.2265946,12.7227016 38.279578,12.6757751 38.3292935,12.6238533 C38.8285401,12.1024504 38.8285401,11.2484691 38.3292935,10.7270662 C37.8417717,10.2179086 37.0607102,10.2179086 36.5731884,10.7270662 C36.5701664,10.7302293 36.5701664,10.7302293 36.5671611,10.7334025 L35.8431796,10.7363719 L35.8282034,10.7207735 C35.3401453,10.2177122 34.5634709,10.220221 34.0781634,10.7270662 C33.5811885,11.2460965 33.5786672,12.0953445 34.0698466,12.6151674 L36.1870949,14.8263779 L38.1091311,12.819043 Z" id="Combined-Shape-Copy-8" fill="url(#linearGradient-4)" fill-rule="nonzero" transform="translate(36.203582, 12.585788) rotate(-7.000000) translate(-36.203582, -12.585788) "></path>
+                <path d="M45.7109132,40.6587392 L45.7725218,40.6041876 C45.8283767,40.5623978 45.8813602,40.5154713 45.9310756,40.4635495 C46.4303222,39.9421467 46.4303222,39.0881653 45.9310756,38.5667625 C45.4435539,38.0576048 44.6624923,38.0576048 44.1749706,38.5667625 C44.1719485,38.5699256 44.1719485,38.5699256 44.1689433,38.5730988 L43.4449618,38.5760682 L43.4299855,38.5604697 C42.9419274,38.0574084 42.1652531,38.0599173 41.6799455,38.5667625 C41.1829707,39.0857928 41.1804494,39.9350407 41.6716288,40.4548637 L43.7888771,42.6660741 L45.7109132,40.6587392 Z" id="Combined-Shape-Copy-9" fill="url(#linearGradient-6)" fill-rule="nonzero" transform="translate(43.805364, 40.425484) rotate(15.000000) translate(-43.805364, -40.425484) "></path>
+                <path d="M17.3737964,24.2814482 L17.435405,24.2268966 C17.49126,24.1851068 17.5442434,24.1381803 17.5939589,24.0862585 C18.0932054,23.5648557 18.0932054,22.7108743 17.5939589,22.1894715 C17.1064371,21.6803138 16.3253755,21.6803138 15.8378538,22.1894715 C15.8348317,22.1926346 15.8348317,22.1926346 15.8318265,22.1958078 L15.107845,22.1987772 L15.0928687,22.1831787 C14.6048107,21.6801174 13.8281363,21.6826263 13.3428287,22.1894715 C12.8458539,22.7085018 12.8433326,23.5577497 13.334512,24.0775727 L15.4517603,26.2887831 L17.3737964,24.2814482 Z" id="Combined-Shape-Copy-10" fill="url(#linearGradient-7)" fill-rule="nonzero" transform="translate(15.468248, 24.048193) rotate(-30.000000) translate(-15.468248, -24.048193) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

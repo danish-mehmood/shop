@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>comment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-31.7%" y="-28.3%" width="163.3%" height="163.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.874509804   0 0 0 0 0.88627451   0 0 0 0 0.901960784  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-406.000000, -590.000000)">
+            <g id="Instagram-Stats" transform="translate(255.000000, 515.000000)">
+                <g id="comment" transform="translate(157.000000, 80.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#E7F1FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M21.5,8 L9.5,8 C8.687,8 8,8.68530788 8,9.49630542 L8,17.7259852 C8,18.5369828 8.687,19.2222906 9.5,19.2222906 L16.6395,19.2222906 L19.06525,21.8839686 C19.1135,21.9368381 19.181,21.9655172 19.25,21.9655172 C19.28025,21.9655172 19.31075,21.9600308 19.34025,21.9488085 C19.4365,21.9116502 19.5,21.8191287 19.5,21.716133 L19.5,19.2222906 L21.5,19.2222906 C22.313,19.2222906 23,18.5369828 23,17.7259852 L23,9.49630542 C23,8.68530788 22.313,8 21.5,8 Z" id="Path" fill="#0248AC"></path>
+                    <g id="chat-(2)" transform="translate(10.000000, 0.000000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

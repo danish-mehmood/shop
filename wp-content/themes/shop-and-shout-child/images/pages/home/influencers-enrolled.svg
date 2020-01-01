@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>influencers-enrolled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-3" points="41.9481522 38.7044189 41.9481522 39.6805487 41.9481522 51.0008443"></polyline>
+        <path d="M35.7999395,44.8526316 L48.0963649,44.8526316" id="path-4"></path>
+    </defs>
+    <g id="influencers-enrolled" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20.6614725,29.9557764 C20.5057873,29.9128634 20.3459345,29.8868362 20.1846774,29.8781447 C18.9438378,29.8112653 17.883722,30.7629481 17.8168426,32.0037877 L16.489585,56.6289041 C16.4874113,56.6692328 16.4863239,56.7096127 16.4863239,56.75 C16.4863239,57.9926407 17.4936832,59 18.7363239,59 L40.2948342,59 C40.3351834,59 40.3755253,58.9989146 40.4158161,58.9967451 C41.6566591,58.9299286 42.6083957,57.8698612 42.5415793,56.6290182 L41.2155729,32.0038472 C41.2068886,31.8425724 41.1808649,31.6827014 41.1379517,31.5269984 C40.807779,30.3290243 39.5689712,29.6255324 38.3709972,29.9557051 L30.7777796,32.0484661 C29.9517437,32.2761292 29.079508,32.2761171 28.2534784,32.0484309 L20.6614725,29.9557764 Z" id="Rectangle-18-Copy" stroke="#073863" stroke-width="1.5" fill="url(#linearGradient-1)"></path>
+        <path d="M29.4794668,28.0210673 C35.0825464,28.0210673 39.2402679,20.250656 39.2402679,14.5578098 C39.2402679,8.86496365 35.0825464,4.25 29.4794668,4.25 C23.8763871,4.25 19.7912128,8.86496365 19.7912128,14.5578098 C19.7912128,20.250656 23.8763871,28.0210673 29.4794668,28.0210673 Z" id="Oval-5-Copy" stroke="#073863" stroke-width="1.5" fill="url(#linearGradient-2)"></path>
+        <g id="Line" stroke-linecap="round">
+            <use stroke="#073863" stroke-width="4" xlink:href="#path-3"></use>
+            <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-3"></use>
+        </g>
+        <g id="Line-2" stroke-linecap="round">
+            <use stroke="#073863" stroke-width="4" xlink:href="#path-4"></use>
+            <use stroke="#FFFFFF" stroke-width="2" xlink:href="#path-4"></use>
+        </g>
+        <path d="M41.9481522,42.7943765 L41.9481522,46.6688595" id="Line-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+    </g>
+</svg>

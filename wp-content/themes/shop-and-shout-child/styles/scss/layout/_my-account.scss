@@ -1,0 +1,258 @@
+/* My Account */
+.my-account-wrapper {
+
+	.social-data {
+
+		
+	}
+}
+
+/* Navigation */
+.woocommerce-MyAccount-navigation-link{
+	list-style-type: none;
+	font-size: 16px;
+}
+.woocommerce-MyAccount-navigation-link > a{
+	color: #9B9B9B;
+	border: 0;
+	transition: .2s;
+}
+.woocommerce-MyAccount-navigation-link > a:hover{
+	text-decoration: none;
+	background-color: #F3F4FB; 
+}
+.woocommerce-MyAccount-navigation-link.is-active {
+	background-color: #F3F4Fb;
+	border-left: 2px solid #0099ff;
+}
+.woocommerce-MyAccount-navigation-link.is-active > a {
+	color: #000;
+}
+.woocommerce-MyAccount-content .sas-form-submit {
+	margin: 0;
+}
+.woocommerce-MyAccount-content .sas-form .form-group label {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	opacity: 1;
+}
+.account-social-connects-container {
+	max-width: 300px;
+}
+
+/* Influencer account personal info */
+#inf-personal-info-form {
+
+}
+
+/* Influencer account interests select */
+#inf-interests-select-form {
+	max-width: 686px;
+	margin: 0 auto;
+}
+
+/* Influencer Email Confirmation */
+.inf-email-confirmation-form-container{
+	max-width: 300px;
+	margin: 0 auto;
+}
+.inf-email-confirmation-container p{
+	margin-bottom: 5px;
+}
+
+/* Login Button List */
+#left-area ul.login-button-container {
+		padding: 0;
+}
+
+ul.login-button-container li {
+	box-shadow: 0 1px 0 rgba(0,0,0,.1);
+	list-style-type: none;
+}
+
+ul.login-button-container li .fb-page-title-container {
+	align-items: center;
+	display: flex;
+	flex-flow: row;
+}
+
+ul.login-button-container li .fb-page-title-container img {
+	border-radius: 50%;
+	box-shadow: 0 1px 3px 0 #ccc;
+	height: 40px;
+	margin: 10px;
+	margin-left: 0;
+	width: 40px;
+}
+
+ul.login-button-container li .fb-page-title-container h5 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+// Instagram Assistant //
+.instagram-assistant-container {
+	margin-bottom: 20px;
+}
+/* --------------------------------------- */
+/* -------------- Profile ---------------- */
+/* --------------------------------------- */
+.fb-page-select-container {
+	margin: 10px 0;
+
+	.fb-page-select {
+		margin-bottom: 15px;
+
+		a:hover {
+			text-decoration: none;
+		}
+
+		span {
+			font-size: 18px;
+		}
+		img {
+			height: 30px;
+			width: 30px;
+			border-radius: 15px;
+			margin-right: 10px
+		}
+	}
+}
+
+/* ------------------------------------------------- */
+/* -------------- Exclusive Content ---------------- */
+/* ------------------------------------------------- */
+.exclusive-content-wrapper {
+
+	.exclusive-content-grid {
+
+		display: grid;
+		align-items: top;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		grid-gap: 1rem;
+
+		.exclusive-content-card-wrapper {
+
+			grid-template-columns: repeat(4, 1fr);
+			max-width: 400px;
+
+			.exclusive-content-card {
+				$card-radius: 8px;
+
+				border: 1px solid #d4d4d4;
+				border-radius: $card-radius;
+
+				&:hover {
+					.card-hero-inner {
+						background-color: #272727a3;
+					}
+				}
+
+				.card-hero {
+					position: relative;
+					border-radius: $card-radius $card-radius 0 0;
+					background-size: cover;
+					background-position: center;
+					.card-hero-inner {
+						height: 200px;
+						transition: .2s;
+						border-radius: $card-radius $card-radius 0 0;
+						h2 {
+							position: relative;
+							bottom: 0;
+							position: absolute;
+							bottom: 0;
+							margin-bottom: 0;
+							padding: 10px 15px;
+							width: 100%;
+							background-color: #00000080;
+							color: #fff;
+						}
+					}
+				}
+
+				.card-info {
+					padding: 10px;
+					text-align: right;
+					p {
+						text-align: left;
+					}
+					a {
+						color: #fff;
+						background-color: #0099ff;
+						padding: 5px 10px;
+						border-radius: 5px;
+						cursor: pointer;
+						text-decoration: none;
+						transition: .2s;
+						&:hover {
+							background-color: #0075c3;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/* ------------------------------------------------- */
+/* ------------- Affiliate Dashboard --------------- */
+/* ------------------------------------------------- */
+.affiliate-dashboard-wrapper {
+	font-family: Muli;
+
+	.affiliate-data-wrapper {
+
+		#affiliate-link-select {
+			margin-bottom: 20px;
+			padding: 5px 10px;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		#affiliate-data-container {
+			width: 100%;
+			min-height: 515px;
+			box-shadow: 0 0 8px 0px #00000026;
+			border-radius: 8px;
+			display: flex;
+			padding: 15px;
+
+			h1 {
+				margin-bottom: .8em;
+			}
+			h3 {
+				margin-bottom: .5em;
+			}
+		}
+
+		#affiliate-data-container {
+			display: none;
+
+			.affiliate-data-tables {
+				display: flex;
+				flex-wrap: wrap;
+
+				.totals {
+					flex: 3;
+					margin-right: 20px;
+				}
+
+				.payouts {
+					flex: 1;
+					flex-basis: auto;
+					width: 260px;
+
+					.payout {
+
+						#affiliate-payout-info {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

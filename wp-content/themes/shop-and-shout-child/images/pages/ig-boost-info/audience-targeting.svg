@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="236px" height="296px" viewBox="0 0 236 296" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>audience-targeting</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4.5" y="4.5" width="226" height="286" rx="7"></rect>
+        <filter x="-3.5%" y="-2.4%" width="107.1%" height="105.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.21 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#36D6F3" offset="0%"></stop>
+            <stop stop-color="#19ADE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#F99A9B" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-6" cx="9.59803922" cy="9.59803922" r="6.21049596"></circle>
+        <polyline id="path-7" points="9.59803922 0.564590542 9.59803922 1.99879902 9.59803922 18.6314879"></polyline>
+        <path d="M0.564590542,9.59803922 L18.6314879,9.59803922" id="path-8"></path>
+    </defs>
+    <g id="audience-targeting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <text id="Advanced-Audience-Ta" font-family="Muli-Bold, Muli" font-size="14" font-weight="bold" letter-spacing="0.371" fill="#343434">
+            <tspan x="47.8675" y="133.25">Advanced Audience </tspan>
+            <tspan x="83.8335" y="151.25">Targeting</tspan>
+        </text>
+        <text id="Our-assistant-target" font-family="Muli-Regular, Muli" font-size="12" font-weight="normal" letter-spacing="0.318" fill="#343434">
+            <tspan x="32.285" y="187.5">Our assistant targets specific </tspan>
+            <tspan x="28.574" y="202.5">demographics, tailored to your </tspan>
+            <tspan x="36.458" y="217.5">interests and specifications.</tspan>
+        </text>
+        <circle id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-3)" cx="117.5" cy="68.5" r="22.25"></circle>
+        <path d="M117.5,82.8970588 C109.548724,82.8970588 103.102941,76.451276 103.102941,68.5 C103.102941,60.548724 109.548724,54.1029412 117.5,54.1029412 C125.451276,54.1029412 131.897059,60.548724 131.897059,68.5 C131.897059,76.451276 125.451276,82.8970588 117.5,82.8970588 Z" id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-4)"></path>
+        <path d="M117.5,74.6078431 C114.126731,74.6078431 111.392157,71.8732686 111.392157,68.5 C111.392157,65.1267314 114.126731,62.3921569 117.5,62.3921569 C120.873269,62.3921569 123.607843,65.1267314 123.607843,68.5 C123.607843,71.8732686 120.873269,74.6078431 117.5,74.6078431 Z" id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-5)"></path>
+        <g id="Group" transform="translate(114.009804, 51.572549)">
+            <g id="Oval-3">
+                <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-6"></use>
+                <use stroke="#073863" stroke-width="2" xlink:href="#path-6"></use>
+            </g>
+            <g id="Line" stroke-linecap="round">
+                <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-7"></use>
+                <use stroke="#073863" stroke-width="2" xlink:href="#path-7"></use>
+            </g>
+            <g id="Line-2" stroke-linecap="round">
+                <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-8"></use>
+                <use stroke="#073863" stroke-width="2" xlink:href="#path-8"></use>
+            </g>
+            <path d="M9.59803922,7.33967705 L9.59803922,10.7272203" id="Line-3" stroke="#073863" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+        <circle id="Oval-Copy-4" stroke="#073863" stroke-width="1.5" cx="117.5" cy="68.5" r="30.5"></circle>
+    </g>
+</svg>

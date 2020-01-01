@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>GB</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="12" rx="1"></rect>
+    </defs>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-288.000000, -981.000000)">
+            <g id="Audience" transform="translate(255.000000, 742.000000)">
+                <g id="Locations" transform="translate(33.000000, 209.000000)">
+                    <g id="GB" transform="translate(0.000000, 30.000000)">
+                        <g id="Canada">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Rectangle-77" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="Rectangle-119" fill="#D52B1E" mask="url(#mask-2)" x="0" y="0" width="16" height="12"></rect>
+                            <rect id="Rectangle-142" fill="#FFFFFF" mask="url(#mask-2)" x="4" y="0" width="8" height="12"></rect>
+                            <path d="M9,5.1633633 L10.4142136,5.1633633 L10.4142136,6.34654598 L8.29289322,8.12132 L8,7.87627484 L7.70710678,8.12132 L5.58578644,6.34654598 L5.58578644,5.1633633 L7,5.1633633 L7,3.8366365 L8,3 L9,3.8366365 L9,5.1633633 Z" id="leaf" fill="#D52B1E" mask="url(#mask-2)"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

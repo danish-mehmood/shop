@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="40px" viewBox="0 0 30 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.50063447,13.5 C2.50063447,14.8807119 3.6199226,16 5.00063447,16 C6.38134635,16 7.50063447,14.8807119 7.50063447,13.5 C7.50063447,12.1192881 6.38134635,11 5.00063447,11 C3.6199226,11 2.50063447,12.1192881 2.50063447,13.5 Z M1.30688447,26.625 L3.12563447,26.625 L3.12563447,29.75 C3.12563447,30.4403559 3.68527854,31 4.37563447,31 L5.62563447,31 C6.31599041,31 6.87563447,30.4403559 6.87563447,29.75 L6.87563447,26.625 L8.69438447,26.625 C9.12839271,26.6252088 9.53416291,26.4098411 9.77721541,26.0502738 C10.0202679,25.6907064 10.0688589,25.2339006 9.90688447,24.83125 L7.35063447,18.43125 C7.06633328,17.717398 6.37526669,17.2492562 5.60688447,17.25 L4.39750947,17.25 C3.62912726,17.2492562 2.93806067,17.717398 2.65375947,18.43125 L0.094384473,24.83125 C-0.0675899632,25.2339006 -0.0189989598,25.6907064 0.224053536,26.0502738 C0.467106032,26.4098411 0.872876233,26.6252088 1.30688447,26.625 Z" id="path-1"></path>
+        <filter x="-175.0%" y="-62.5%" width="450.0%" height="275.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.921568627   0 0 0 0 0.368627451   0 0 0 0 0.741176471  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-274.000000, -798.000000)" fill-rule="nonzero">
+            <g id="Audience" transform="translate(255.000000, 742.000000)">
+                <g id="Group-11" transform="translate(29.000000, 49.000000)">
+                    <g id="Group-10" transform="translate(0.000000, 1.000000)">
+                        <g id="Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FED6AA" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

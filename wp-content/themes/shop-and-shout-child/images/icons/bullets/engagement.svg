@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Engagement</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="5.60280171%" y1="26.1565937%" x2="80.4424555%" y2="78.3038549%" id="linearGradient-1">
+            <stop stop-color="#FC8081" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.7665268%" y1="-11.8857326%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M44.32,21.5882706 C45.6662478,21.6458618 46.74,22.7554979 46.74,24.1159223 C46.74,25.4763467 45.6662478,26.5859828 44.32,26.643574 L44.32,26.6459223 L39.76,26.6459223 C39.4838576,26.6459223 39.26,26.4220647 39.26,26.1459223 L39.26,21.5859223 L39.2623483,21.5859223 C39.3199395,20.2396745 40.4295756,19.1659223 41.79,19.1659223 C43.1504244,19.1659223 44.2600605,20.2396745 44.3176517,21.5859223 L44.32,21.5859223 L44.32,21.5882706 Z" id="path-3"></path>
+    </defs>
+    <g id="Engagement" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M20.5639856,40.1613239 C17.6575226,38.4271658 15.7108413,35.2514363 15.7108413,31.621035 C15.7108413,26.1325404 20.1601453,21.6832364 25.6486399,21.6832364 L37.2730427,21.6832364 C42.7615373,21.6832364 47.2108413,26.1325404 47.2108413,31.621035 C47.2108413,37.1095296 42.7615373,41.5588336 37.2730427,41.5588336 L25.6486399,41.5588336 C25.3188912,41.5588336 24.9928936,41.5427734 24.6713867,41.5113924 C21.3203526,45.0114134 15.918741,48.6780986 20.5639856,40.1613239 Z" id="Path-2" stroke="#073863" fill="url(#linearGradient-1)"></path>
+        <path d="M23.8224411,32.195081 L39.1775079,32.195081" id="Line-Copy" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M23.8224411,28.195081 L39.1775079,28.195081" id="Line-Copy-3" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M23.8224411,36.195081 L39.1775079,36.195081" id="Line-Copy-2" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <g id="Combined-Shape" transform="translate(43.000000, 22.905922) rotate(-45.000000) translate(-43.000000, -22.905922) ">
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+            <use stroke="#FFFFFF" stroke-width="0.75" xlink:href="#path-3"></use>
+            <path stroke="#073863" stroke-width="0.5" d="M44.0777848,21.8281376 L44.07,21.8278045 L44.07,21.6461614 L44.0678801,21.5966073 C44.0158302,20.3798932 43.0122561,19.4159223 41.79,19.4159223 C40.5677439,19.4159223 39.5641698,20.3798932 39.5121199,21.5966073 L39.51,21.6461614 L39.51,26.1459223 C39.51,26.2839935 39.6219288,26.3959223 39.76,26.3959223 L44.2597609,26.3959223 L44.309315,26.3938024 C45.5260291,26.3417526 46.49,25.3381784 46.49,24.1159223 C46.49,22.8936662 45.5260291,21.8900921 44.309315,21.8380422 L44.2597609,21.8359223 L44.0781178,21.8359223 L44.0777848,21.8281376 Z" stroke-linejoin="square"></path>
+        </g>
+        <circle id="Oval-Copy" stroke="#073863" stroke-width="1.5" cx="31.5" cy="31.5" r="30.5"></circle>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="138px" viewBox="0 0 138 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Chart 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-302.000000, -258.000000)">
+            <g id="Chart-1" transform="translate(304.000000, 260.000000)">
+                <circle id="Circle-4" stroke="#979797" stroke-width="8" opacity="0.115206069" cx="68" cy="67" r="64"></circle>
+                <path d="M67.5288712,3.44659271 C32.1372061,3.44659271 3.44659271,32.1372061 3.44659271,67.5288712 C3.44659271,102.920536 32.1372061,131.61115 67.5288712,131.61115 C102.920536,131.61115 131.61115,102.920536 131.61115,67.5288712" id="Circle-3" stroke="#3B5998" stroke-width="8" stroke-linecap="round" transform="translate(67.528871, 67.528871) rotate(-267.000000) translate(-67.528871, -67.528871) "></path>
+                <path d="M67.5288712,3.44659271 C32.1372061,3.44659271 3.44659271,32.1372061 3.44659271,67.5288712 C3.44659271,102.920536 32.1372061,131.61115 67.5288712,131.61115 C102.920536,131.61115 131.61115,102.920536 131.61115,67.5288712" id="Circle-2" stroke="#1DA1F2" stroke-width="8" stroke-linecap="round" transform="translate(67.528871, 67.528871) rotate(-1.000000) translate(-67.528871, -67.528871) "></path>
+                <path d="M67,3 C31.653776,3 3,31.653776 3,67 C3,102.346224 31.653776,131 67,131" id="Circle-1" stroke="#D52260" stroke-width="8.7" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

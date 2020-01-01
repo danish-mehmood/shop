@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="20px" viewBox="0 0 18 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sign-up-Flow---UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-up-2" transform="translate(-798.000000, -273.000000)" fill="#FFFFFF">
+            <g id="Post-Signup-" transform="translate(519.000000, 151.000000)">
+                <g id="Marketplace-button" transform="translate(15.000000, 108.000000)">
+                    <path d="M264,14 L282.109312,24 L264,34 C267.018219,29.819209 268.527328,26.5988701 268.527328,24.3389831 C268.527328,22.079096 267.018219,18.6327684 264,14 Z" id="Rectangle-Copy"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

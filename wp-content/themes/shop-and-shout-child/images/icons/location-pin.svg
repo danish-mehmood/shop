@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="18px" viewBox="0 0 13 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>placeholder-filled-point</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-305.000000, -452.000000)" fill="#0248AC" fill-rule="nonzero">
+            <g id="interests-and-location" transform="translate(236.000000, 452.000000)">
+                <g id="Location" transform="translate(69.000000, 0.000000)">
+                    <g id="placeholder-filled-point" transform="translate(0.000000, 0.000000)">
+                        <path d="M6.49972897,0 C2.91595202,0 0,2.8902796 0,6.4428627 C0,7.36951449 0.191349188,8.25425741 0.568446217,9.07273416 C2.19355915,12.5975571 5.30935272,16.3190294 6.22580511,17.3755271 C6.29446676,17.4545092 6.39456822,17.5 6.49990966,17.5 C6.60525109,17.5 6.70535255,17.4545092 6.7740142,17.3755271 C7.69010522,16.3192085 10.8058988,12.5979153 12.4315538,9.07273416 C12.8088315,8.25425741 13,7.36951449 13,6.4428627 C12.9996386,2.8902796 10.0836866,0 6.49972897,0 Z M6.5,9.5 C4.57018624,9.5 3,8.04200894 3,6.25008696 C3,4.45799106 4.57018624,3 6.5,3 C8.42981376,3 10,4.45799106 10,6.25008696 C10.0001873,8.04200894 8.43000107,9.5 6.5,9.5 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

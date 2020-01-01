@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>content-value</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#33CFFF" offset="0%"></stop>
+            <stop stop-color="#17A2FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M31.1428571,42.4489796 L42.0374736,42.4489796" id="path-2"></path>
+        <path d="M29.2393703,37.7653061 L45.5631987,37.7653061" id="path-3"></path>
+    </defs>
+    <g id="content-value" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="$-copy" stroke="#073863" stroke-width="1.25" font-family="HansomFYW01-Bold" font-size="27" font-weight="bold" letter-spacing="0.7155" fill="#1DD1A1">
+            <tspan x="30.8605345" y="30.5">$</tspan>
+        </text>
+        <g id="Group-Copy" transform="translate(9.285714, 44.010204)" stroke="#073863">
+            <path d="M0.0201613626,3.83441399 L0.0201613626,6.43688015 C0.0201613626,7.54144965 0.915591863,8.43688015 2.02016136,8.43688015 C2.12280197,8.43688015 2.22529028,8.42897884 2.32671799,8.41324626 L6.72930403,7.73035562 C8.10730723,7.51661182 9.51612866,7.6260017 10.8446216,8.04989513 L17.250047,10.0937281 C20.8385895,11.2387545 24.6959272,11.2291397 28.278717,10.066238 L40.2818914,6.17024813 C41.308011,5.83719851 41.8698473,4.73537009 41.5367902,3.70925292 C41.2754634,2.90412997 40.5253126,2.35893734 39.6788407,2.35893734 C39.6788407,2.35893734 39.6788407,2.35893734 39.6788407,2.35893734 C37.6367656,2.35893734 33.9698588,3.08137834 28.6781201,4.52626034 C28.8445568,3.07771146 27.6859029,2.56925085 25.2021584,3.0008785 C21.4765417,3.64831999 20.1233356,-0.365469019 12.9898546,0.0663705831 C9.31427706,0.288879048 5.8970085,0.549324868 2.73804886,0.847708042 C1.19734154,0.993237079 0.0201613626,2.28684889 0.0201613626,3.83441399 Z" id="Path-7" fill="url(#linearGradient-1)"></path>
+            <path d="M28.7423056,4.48436661 L27.5858302,4.85708139 C25.1138177,5.65377419 22.4772995,5.7949561 19.9343436,5.26680795 L16.1670032,4.48436661 L16.1670032,4.48436661" id="Path-8" stroke-linecap="round"></path>
+        </g>
+        <g id="Line-Copy-4" stroke-linecap="round">
+            <use stroke="#073863" stroke-width="2.25" xlink:href="#path-2"></use>
+            <use stroke="#1DD1A1" stroke-width="1" xlink:href="#path-2"></use>
+        </g>
+        <g id="Line-Copy-3" stroke-linecap="round">
+            <use stroke="#073863" stroke-width="2.25" xlink:href="#path-3"></use>
+            <use stroke="#1DD1A1" stroke-width="1" xlink:href="#path-3"></use>
+        </g>
+    </g>
+</svg>

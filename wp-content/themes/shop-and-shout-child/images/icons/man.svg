@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="40px" viewBox="0 0 28 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6.875,11.5 C6.875,12.8807119 5.75571187,14 4.375,14 C2.99428813,14 1.875,12.8807119 1.875,11.5 C1.875,10.1192881 2.99428813,9 4.375,9 C5.75571187,9 6.875,10.1192881 6.875,11.5 Z M6.875,15.25 L1.875,15.25 C0.839466094,15.25 0,16.0894661 0,17.125 L0,20.875 C0,21.9105339 0.839466094,22.75 1.875,22.75 L1.875,27.75 C1.875,28.4403559 2.43464406,29 3.125,29 L5.625,29 C6.31535594,29 6.875,28.4403559 6.875,27.75 L6.875,22.75 C7.91053391,22.75 8.75,21.9105339 8.75,20.875 L8.75,17.125 C8.75,16.0894661 7.91053391,15.25 6.875,15.25 Z" id="path-1"></path>
+        <filter x="-200.0%" y="-62.5%" width="500.0%" height="275.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.368627451   0 0 0 0 0.466666667   0 0 0 0 1  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-379.000000, -796.000000)" fill-rule="nonzero">
+            <g id="Audience" transform="translate(255.000000, 742.000000)">
+                <g id="Group-11" transform="translate(29.000000, 49.000000)">
+                    <g id="Group-9" transform="translate(104.000000, 1.000000)">
+                        <g id="Shape-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#00ACEA" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

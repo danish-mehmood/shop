@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="98px" viewBox="0 0 99 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Product-Listing---Desktop" transform="translate(-906.000000, -2443.000000)" stroke="#000000">
+            <g id="Group-3" transform="translate(900.000000, 2435.500000)">
+                <path d="M55.5,102.5 C81.1812409,102.5 102,81.6812409 102,56 C102,30.3187591 81.1812409,9.5 55.5,9.5 C29.8187591,9.5 9,30.3187591 9,56 C9,81.6812409 29.8187591,102.5 55.5,102.5 Z" id="Oval" stroke-width="4.5" stroke-dasharray="274" transform="translate(55.500000, 56.000000) rotate(-192.000000) translate(-55.500000, -56.000000) "></path>
+                <line x1="55.5" y1="9.5" x2="55.5" y2="56" id="Line-6" stroke-width="4" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

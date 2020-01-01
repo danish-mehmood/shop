@@ -1,0 +1,40 @@
+{
+  "name": "shop-and-shout-child",
+  "version": "1.0.0",
+  "description": "Shop and Shout NPM",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "browser-sync": "^2.26.7",
+    "chart.js": "^2.8.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.9.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "puppeteer": "^1.20.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aquast1/shop-and-shout.git"
+  },
+  "author": "Alex Quast",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aquast1/shop-and-shout/issues"
+  },
+  "homepage": "https://github.com/aquast1/shop-and-shout#readme"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>youtube</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Profile-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Profile" transform="translate(-696.000000, -558.000000)" fill="#FF6161">
+            <g id="youtube" transform="translate(696.000000, 558.000000)">
+                <g id="Shape">
+                    <path d="M17.3931905,0 L4.5592381,0 C2.0412381,0 0,2.0412381 0,4.5592381 L0,10.9748571 C0,13.4928571 2.0412381,15.5340952 4.5592381,15.5340952 L17.3931905,15.5340952 C19.9111905,15.5340952 21.9524286,13.4928571 21.9524286,10.9748571 L21.9524286,4.5592381 C21.9524286,2.0412381 19.9111905,0 17.3931905,0 Z M14.3098095,8.07919048 L8.30695238,10.9421905 C8.147,11.0184762 7.9622381,10.9018571 7.9622381,10.7246667 L7.9622381,4.81971429 C7.9622381,4.64 8.15185714,4.52352381 8.31214286,4.6047619 L14.315,7.64671429 C14.4934762,7.73714286 14.490381,7.99309524 14.3098095,8.07919048 Z" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

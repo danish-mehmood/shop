@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>timesaved</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F99A9B" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="timesaved" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-Copy" stroke="#073863" stroke-width="1.5" fill="url(#linearGradient-1)" stroke-linecap="round" cx="32" cy="32.3060615" r="24.8786724"></circle>
+        <path d="M32,10.3742648 L32,12.3975557" id="Line-6-Copy-4" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M31.9582076,52.0933267 L31.9582076,54.1166176" id="Line-6-Copy-5" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M9.5136127,32.764269 L11.5369036,32.764269" id="Line-6-Copy-6" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M52.2722387,32.3060615 L54.2955296,32.3060615" id="Line-6-Copy-7" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M16.515027,16.7092948 L17.9457097,18.1399775" id="Line-6-Copy-8" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M45.9853068,46.2386781 L47.4159896,47.6693609" id="Line-6-Copy-9" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M16.4468738,48.4416956 L17.8775566,47.0110128" id="Line-6-Copy-10" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M46.3577866,17.8827795 L47.7884693,16.4520968" id="Line-6-Copy-11" stroke="#FFFFFF" stroke-linecap="round"></path>
+        <path d="M35.9949604,17.4566273 C35.3819885,17.292382 34.7519294,17.6561468 34.5876841,18.2691187 L31.0365322,31.522198 C30.9678746,31.7784317 30.9896052,32.0433178 31.1218421,32.3630537 L31.1515931,32.4861948 C31.3282525,33.1022793 31.9708983,33.4585037 32.5869828,33.2818444 L38.9287137,31.4633823 C39.5447982,31.2867229 39.9010226,30.644077 39.7243632,30.0279925 C39.5477038,29.4119081 38.9050579,29.0556836 38.2889253,29.2323568 L33.6738378,30.5552116 L33.9026255,29.7016199 L36.8074518,18.8639037 C36.9716971,18.2509317 36.6079323,17.6208727 35.9949604,17.4566273 Z" id="Combined-Shape-Copy-2" stroke="#073863" fill="url(#linearGradient-2)"></path>
+        <circle id="Oval-Copy-2" fill="#073863" cx="32" cy="32.3060615" r="1.95820756"></circle>
+    </g>
+</svg>

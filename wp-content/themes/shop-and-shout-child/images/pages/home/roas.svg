@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>roas</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M51.2240318,36.4175999 L51.2240318,15.4347109" id="path-1"></path>
+        <circle id="path-2" cx="29.9413873" cy="36.7173554" r="21.2826446"></circle>
+    </defs>
+    <g id="roas" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="$" stroke="#073863" stroke-width="1.25" font-family="HansomFYW01-Bold" font-size="27" font-weight="bold" letter-spacing="0.7155" fill="#1DD1A1">
+            <tspan x="24.0541525" y="45.8327553">$</tspan>
+        </text>
+        <g id="Line-5" stroke-linecap="round">
+            <use stroke="#073863" stroke-width="3.5" xlink:href="#path-1"></use>
+            <use stroke="#1DD1A1" stroke-width="2" xlink:href="#path-1"></use>
+        </g>
+        <g id="Oval">
+            <use stroke="#073863" stroke-width="3.5" xlink:href="#path-2"></use>
+            <use stroke="#1DD1A1" stroke-width="2" xlink:href="#path-2"></use>
+        </g>
+        <path d="M51.6712454,6.89442719 L54.9794539,13.5108441 C55.1029485,13.7578334 55.0028363,14.0581699 54.7558471,14.1816645 C54.6864194,14.2163784 54.6098628,14.2344509 54.5322403,14.2344509 L47.9158234,14.2344509 C47.639681,14.2344509 47.4158234,14.0105933 47.4158234,13.7344509 C47.4158234,13.6568284 47.4338959,13.5802719 47.4686098,13.5108441 L50.7768182,6.89442719 C50.9003129,6.64743794 51.2006494,6.54732577 51.4476386,6.67082039 C51.5444023,6.71920224 51.6228636,6.79766349 51.6712454,6.89442719 Z" id="Triangle" stroke="#073863" stroke-width="0.75" fill="#1DD1A1"></path>
+        <path d="M51.2240318,34.5011096 L51.2240318,13.5182206" id="Line-5" stroke="#1DD1A1" stroke-width="2" stroke-linecap="square"></path>
+    </g>
+</svg>

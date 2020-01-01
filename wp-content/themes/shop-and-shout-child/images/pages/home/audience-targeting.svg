@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>audience-targeting</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#36D6F3" offset="0%"></stop>
+            <stop stop-color="#19ADE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F99A9B" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="9.59803922" cy="9.59803922" r="6.21049596"></circle>
+        <polyline id="path-5" points="9.59803922 0.564590542 9.59803922 1.99879902 9.59803922 18.6314879"></polyline>
+        <path d="M0.564590542,9.59803922 L18.6314879,9.59803922" id="path-6"></path>
+    </defs>
+    <g id="audience-targeting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(1.500000, 1.500000)">
+            <circle id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-1)" cx="30.5" cy="30.5" r="22.25"></circle>
+            <path d="M30.5,44.8970588 C22.548724,44.8970588 16.1029412,38.451276 16.1029412,30.5 C16.1029412,22.548724 22.548724,16.1029412 30.5,16.1029412 C38.451276,16.1029412 44.8970588,22.548724 44.8970588,30.5 C44.8970588,38.451276 38.451276,44.8970588 30.5,44.8970588 Z" id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-2)"></path>
+            <path d="M30.5,36.6078431 C27.1267314,36.6078431 24.3921569,33.8732686 24.3921569,30.5 C24.3921569,27.1267314 27.1267314,24.3921569 30.5,24.3921569 C33.8732686,24.3921569 36.6078431,27.1267314 36.6078431,30.5 C36.6078431,33.8732686 33.8732686,36.6078431 30.5,36.6078431 Z" id="Oval" stroke="#073863" stroke-width="2" fill="url(#linearGradient-3)"></path>
+            <g id="Group" transform="translate(27.009804, 13.572549)">
+                <g id="Oval-3">
+                    <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-4"></use>
+                    <use stroke="#073863" stroke-width="2" xlink:href="#path-4"></use>
+                </g>
+                <g id="Line" stroke-linecap="round">
+                    <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-5"></use>
+                    <use stroke="#073863" stroke-width="2" xlink:href="#path-5"></use>
+                </g>
+                <g id="Line-2" stroke-linecap="round">
+                    <use stroke="#FFFFFF" stroke-width="4" xlink:href="#path-6"></use>
+                    <use stroke="#073863" stroke-width="2" xlink:href="#path-6"></use>
+                </g>
+                <path d="M9.59803922,7.33967705 L9.59803922,10.7272203" id="Line-3" stroke="#073863" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <circle id="Oval-Copy-4" stroke="#073863" stroke-width="1.5" cx="30.5" cy="30.5" r="30.5"></circle>
+        </g>
+    </g>
+</svg>

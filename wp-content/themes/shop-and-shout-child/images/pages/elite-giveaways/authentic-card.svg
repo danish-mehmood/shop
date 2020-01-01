@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="286px" viewBox="0 0 227 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>authentic-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.3%" y="-4.2%" width="110.6%" height="108.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#36D6F3" offset="0%"></stop>
+            <stop stop-color="#19ADE4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#72E6DC" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="authentic-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Authentic---Feature-Card" filter="url(#filter-1)">
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#000000" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="Group" transform="translate(22.000000, 155.987000)" fill="#5E5E5E" font-family="Muli-Regular, Muli" font-size="14" font-weight="normal">
+                    <text id="Elite-Influencers-have-a-real">
+                        <tspan x="0.213" y="14.282">Elite Influencers have a real</tspan>
+                    </text>
+                    <text id="audience,-made-up-of-a">
+                        <tspan x="13.558" y="32.282">audience, made up of a</tspan>
+                    </text>
+                    <text id="minimum-of-85%-authentic">
+                        <tspan x="1.881" y="50.282">minimum of 85% authentic</tspan>
+                    </text>
+                    <text id="followers.">
+                        <tspan x="60.832" y="68.282">followers.</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(71.000000, 117.987000)" fill="#171C34" font-family="Muli-Bold, Muli" font-size="15" font-weight="bold">
+                    <text id="AUTHENTIC">
+                        <tspan x="0.35" y="15.575">AUTHENTIC</tspan>
+                    </text>
+                </g>
+            </g>
+            <circle id="Oval-Copy" stroke="#073863" stroke-width="1.5" cx="113.5" cy="73" r="30.5"></circle>
+            <path d="M124.618321,74.0901408 C127.542114,71.1663479 127.542114,66.425943 124.618321,63.5021501 C121.694528,60.5783572 116.954123,60.5783572 114.03033,63.5021501 L113.5,64.0324802 L112.96967,63.5021501 C110.045877,60.5783572 105.305472,60.5783572 102.381679,63.5021501 C99.4578864,66.425943 99.4578864,71.1663479 102.381679,74.0901408 L112.616117,84.324578 C113.104272,84.8127334 113.895728,84.8127334 114.383883,84.324578 L124.618321,74.0901408 Z" id="Combined-Shape" stroke="#073863" stroke-width="1.5" fill="url(#linearGradient-2)"></path>
+            <path d="M127.714497,73.3365449 L118.841441,82.209601 L114.981054,78.3492135 C114.52786,77.89602 113.793089,77.89602 113.339895,78.3492135 C112.886702,78.8024069 112.886702,79.5371787 113.339895,79.9903722 L117.997232,84.6478308 C118.004838,84.6556748 118.004838,84.6556748 118.01257,84.6634551 C118.454638,85.1055227 119.168911,85.112749 119.621872,84.6788703 C119.634035,84.6672678 119.634035,84.6672678 119.646049,84.6553671 C119.65383,84.6475372 119.65383,84.6475372 119.667952,84.6330556 L129.33948,74.9615277 C129.788207,74.5128011 129.788207,73.7852715 129.33948,73.3365449 C128.890754,72.8878184 128.163224,72.8878184 127.714497,73.3365449 Z" id="Combined-Shape" stroke="#073863" fill="url(#linearGradient-3)"></path>
+        </g>
+    </g>
+</svg>

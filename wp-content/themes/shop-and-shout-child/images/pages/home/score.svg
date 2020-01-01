@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>getscored</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0099FF" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.2277075%" y1="12.1983514%" x2="59.6114475%" y2="87.8016486%" id="linearGradient-2">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="getscored" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#073863" stroke-width="1.5" cx="32.0560564" cy="32" r="30.5"></circle>
+        <g id="Group-Copy" transform="translate(17.500000, 17.500000)">
+            <path d="M3,0.5 C1.61928813,0.5 0.5,1.61928813 0.5,3 L0.5,25.8444444 C0.5,27.2251563 1.61928813,28.3444444 3,28.3444444 L25.8444444,28.3444444 C27.2251563,28.3444444 28.3444444,27.2251563 28.3444444,25.8444444 L28.3444444,3 C28.3444444,1.61928813 27.2251563,0.5 25.8444444,0.5 L3,0.5 Z" id="Rectangle-22" stroke="#073863" fill="url(#linearGradient-1)"></path>
+            <path d="M6.75752389,16.1810298 L22.0869206,16.1810298" id="Line" stroke="#FFFFFF" stroke-linecap="round"></path>
+            <path d="M6.75752389,18.995122 L22.0869206,18.995122" id="Line-Copy" stroke="#FFFFFF" stroke-linecap="round"></path>
+            <path d="M6.75752389,21.8092141 L22.0869206,21.8092141" id="Line-Copy-2" stroke="#FFFFFF" stroke-linecap="round"></path>
+        </g>
+        <path d="M35.4925417,28.1048683 L35.5541503,28.0503167 C35.6626089,27.9691696 35.7653012,27.8782168 35.8614265,27.7778255 C36.8229863,26.7735924 36.8229863,25.1367884 35.8614265,24.1325552 C34.9115916,23.1405672 33.3809723,23.1405672 32.4311374,24.1325552 C32.4253079,24.1386567 32.4253079,24.1386567 32.4195105,24.1447782 L32.059078,24.5261873 L31.695529,24.1477476 L31.6692797,24.1204143 C30.7182509,23.1401503 29.1962186,23.1450668 28.2506921,24.1325552 C27.2935012,25.1322257 27.2886689,26.7599101 28.2367573,27.7632723 L31.6670465,31.3457955 C31.6746086,31.3535797 31.6746086,31.3535797 31.6823927,31.3611418 C31.8818466,31.5521202 32.1983545,31.5452494 32.3893329,31.3457955 L35.4925417,28.1048683 Z" id="Combined-Shape-Copy" stroke="#FFFFFF" fill="url(#linearGradient-2)"></path>
+    </g>
+</svg>

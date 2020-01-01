@@ -1,0 +1,51 @@
+
+
+/* Influencer Welcome */
+.welcome-interests-wrapper {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.welcome-interests-wrapper h1 {
+    max-width: 300px;
+    margin: 0 auto;
+    font-size: 23px;
+    line-height: 1.5em;
+}
+.welcome-interests-wrapper p {
+    font-size: 15px;
+}
+.welcome-button {
+    border: 0;
+    color: #fff;
+    background-color: rgb(255, 97, 97);
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+}
+.welcome-button:hover {
+    background-color: #C65252;
+}
+.welcome-button[disabled="disabled"] {
+    background-color: #ffE5E5;
+    cursor: default;
+}
+.welcome-button span {
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+    letter-spacing: .2px;
+    line-height: 50px;
+}
+.welcome-button img {
+    padding: 15px;
+    height: 50px;
+}
+.welcome-img-left {
+    float: left;
+}
+.welcome-img-right {
+    float: right;
+}

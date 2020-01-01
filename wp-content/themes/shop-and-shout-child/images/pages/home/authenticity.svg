@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>authenticity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="49.4467718%" cy="0.242142148%" fx="49.4467718%" fy="0.242142148%" r="88.080336%" id="radialGradient-1">
+            <stop stop-color="#05BFB8" offset="0%"></stop>
+            <stop stop-color="#541F70" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="authenticity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#D3D2D2" stroke-width="14" cx="67.5" cy="67.5" r="59.764069"></circle>
+        <text id="77%" font-family="Muli-ExtraBold, Muli ExtraBold" font-size="41" font-weight="600" fill="#000000">
+            <tspan x="23.138" y="83.6680293">77%</tspan>
+        </text>
+        <path d="M67.5,127.264069 C100.506784,127.264069 127.264069,100.506784 127.264069,67.5 C127.264069,34.4932161 100.506784,7.735931 67.5,7.735931 C34.4932161,7.735931 7.735931,34.4932161 7.735931,67.5 C7.735931,100.506784 34.4932161,127.264069 67.5,127.264069 Z" id="Oval" stroke="url(#radialGradient-1)" stroke-width="14" stroke-linecap="round" stroke-dasharray="289" transform="translate(67.500000, 67.500000) rotate(97.000000) translate(-67.500000, -67.500000) "></path>
+    </g>
+</svg>

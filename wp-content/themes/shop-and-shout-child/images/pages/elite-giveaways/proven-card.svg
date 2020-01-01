@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="227px" height="286px" viewBox="0 0 227 286" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>proven-card</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.3%" y="-4.2%" width="110.6%" height="108.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#72E6DC" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#72E6DC" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#72E6DC" offset="0%"></stop>
+            <stop stop-color="#3EC8B7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.2277075%" y1="15.8556087%" x2="59.6114475%" y2="84.1443913%" id="linearGradient-5">
+            <stop stop-color="#00C9FF" offset="0%"></stop>
+            <stop stop-color="#0099FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="10.5678984%" y1="10.8969288%" x2="59.6114475%" y2="89.6493379%" id="linearGradient-6">
+            <stop stop-color="#FF9B9C" offset="0%"></stop>
+            <stop stop-color="#F16162" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="proven-card" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <g id="Proven---Feature-Card" filter="url(#filter-1)">
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#000000" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="A-link" transform="translate(0.000000, 0.987000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <rect id="A" x="0" y="0" width="227" height="284.05" rx="4"></rect>
+                </g>
+                <g id="Group" transform="translate(23.000000, 155.987000)" fill="#5E5E5E" font-family="Muli-Regular, Muli" font-size="14" font-weight="normal">
+                    <text id="ShoutOuts-crafted-by-Elite">
+                        <tspan x="3.859" y="14.282">ShoutOuts crafted by Elite</tspan>
+                    </text>
+                    <text id="Influencers-are-consistently">
+                        <tspan x="0.375" y="32.282">Influencers are consistently</tspan>
+                    </text>
+                    <text id="rated-4-hearts-or-higher-by">
+                        <tspan x="2.213" y="50.282">rated 4 hearts or higher by</tspan>
+                    </text>
+                    <text id="the-brands-they-work-with.">
+                        <tspan x="2.325" y="68.282">the brands they work with.</tspan>
+                    </text>
+                </g>
+                <g id="Group" transform="translate(83.000000, 117.987000)" fill="#171C34" font-family="Muli-Bold, Muli" font-size="15" font-weight="bold">
+                    <text id="PROVEN">
+                        <tspan x="0.313" y="15.575">PROVEN</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Proven" transform="translate(82.500000, 42.000000)" stroke="#073863">
+                <circle id="Oval-Copy" stroke-width="1.5" cx="31" cy="30.9403969" r="30.5"></circle>
+                <g id="Group-2" transform="translate(17.000000, 11.500000)">
+                    <path d="M25.5506826,6.47664108 L22.064713,7.77939018 L18.5603004,18.4697012 L24.724052,15.5776962 C24.9711481,15.4617599 25.1417027,15.2508717 25.191575,15.010156 L26.7750146,7.36747536 C26.8628013,6.94376144 26.5595092,6.5205124 26.0720742,6.43120325 C25.8970707,6.39913864 25.7155805,6.41504511 25.5506273,6.47666177 L25.5506827,6.47664108 L25.5506826,6.47664108 Z" id="Rectangle-6" stroke-width="1.25"></path>
+                    <path d="M7.68455511,6.56311915 L4.1985855,7.86586826 L0.694172893,18.5561793 L6.85792448,15.6641743 C7.10502051,15.5482379 7.27557513,15.3373497 7.3254475,15.0966341 L8.90888707,7.45395343 C8.99667372,7.03023951 8.6933817,6.60699047 8.20594666,6.51768132 C8.03094317,6.48561671 7.84945297,6.50152318 7.68449972,6.56313984 L7.68455511,6.56311915 Z" id="Rectangle-6" stroke-width="1.25" transform="translate(4.809073, 12.528851) scale(-1, 1) translate(-4.809073, -12.528851) "></path>
+                    <path d="M7.8320277,32.502183 L19.5833533,32.502183 C20.135638,32.502183 20.5833533,32.9498983 20.5833533,33.502183 L20.5833533,35.8447069 C20.5833533,36.3969917 20.135638,36.8447069 19.5833533,36.8447069 L7.8320277,36.8447069 C7.27974295,36.8447069 6.8320277,36.3969917 6.8320277,35.8447069 L6.8320277,33.502183 C6.8320277,32.9498983 7.27974295,32.502183 7.8320277,32.502183 Z" id="Rectangle-5" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                    <rect id="Rectangle-7" fill="url(#linearGradient-3)" fill-rule="nonzero" x="3.9370118" y="36.1209529" width="19.5413574" height="4.34252386" rx="1"></rect>
+                    <path d="M12.7560753,31.7932537 L2.91165035,1.30729239 C2.74193744,0.781729858 3.03041057,0.218097755 3.5559731,0.0483848538 C3.65525284,0.0163257719 3.75893788,0 3.86326549,0 L23.5521155,0 C24.1044002,0 24.5521155,0.44771525 24.5521155,1 C24.5521155,1.10432761 24.5357897,1.20801265 24.5037306,1.30729239 L14.6593056,31.7932537 C14.4895927,32.3188162 13.9259606,32.6072893 13.4003981,32.4375764 C13.0945647,32.3388177 12.854834,32.0990871 12.7560753,31.7932537 Z" id="Triangle" fill="url(#linearGradient-4)" fill-rule="nonzero"></path>
+                    <path d="M15.5770203,23.1601273 L14.0695675,27.79959" id="Line-3" stroke-width="0.75" stroke-linecap="round"></path>
+                    <path d="M16.5622588,20.2651113 L16.2408294,21.2164219" id="Line-3" stroke-width="0.75" stroke-linecap="round"></path>
+                    <path d="M16.8748034,11.7570555 L16.9371712,11.7041474 C17.0248912,11.6413055 17.107879,11.5709279 17.1855077,11.4932992 C17.9560899,10.7227171 17.9560899,9.47335655 17.1855077,8.70277439 C16.4149256,7.93219224 15.165565,7.93219224 14.3949829,8.70277439 C14.3902784,8.70748922 14.3902784,8.70748922 14.3856005,8.71221866 L14.0326417,9.06984772 L13.6767579,8.71512933 L13.6549578,8.69339197 C12.8833376,7.93184846 11.6409605,7.9356911 10.8738772,8.70277439 C10.1067963,9.4698553 10.1029442,10.7122432 10.8621402,11.4815622 L13.652665,14.2720871 C13.8479272,14.4673492 14.1645097,14.4673492 14.3597718,14.2720871 L16.8748034,11.7570555 Z" id="Combined-Shape-Copy" fill="url(#linearGradient-5)" fill-rule="nonzero"></path>
+                </g>
+                <path d="M34.3869548,22.8918296 L34.4485634,22.837278 C34.5553202,22.7574041 34.6564045,22.6678756 34.7510284,22.5690523 C35.6976324,21.5804387 35.6976324,19.968959 34.7510284,18.9803454 C33.8161494,18.003977 32.3097783,18.003977 31.3748992,18.9803454 C31.3691605,18.9863519 31.3691605,18.9863519 31.3634534,18.9923779 L31.0030209,19.3737871 L30.6394719,18.9953473 L30.6135873,18.9683937 C29.6775356,18.0035672 28.1796157,18.0084058 27.2489773,18.9803454 C26.3066743,19.9644671 26.3019168,21.5669691 27.2352242,22.5546888 L30.9724967,26.4578191 L34.3869548,22.8918296 Z" id="Combined-Shape-Copy-7" fill="url(#linearGradient-6)" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

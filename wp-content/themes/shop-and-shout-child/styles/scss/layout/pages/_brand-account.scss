@@ -1,0 +1,715 @@
+.brand-account-wrapper {
+	position: relative;
+
+	#dashboard-loading {
+		position: absolute;
+		width: 100vw;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #ffffffdb;
+		z-index: 999;
+	}
+
+	.sidebar-hamburger-container {
+		background-color: #E7EDF4;
+	}
+
+	.sidebar__toggle {
+		display: inline-block;
+		cursor: pointer;
+		padding: 10px;
+
+		i {
+			font-size: 26px;
+			color: #5e5e5e;
+		}
+	}
+
+	#dashboard-sidebar {
+		position: fixed;
+		top: 0;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+		z-index: 2;
+		background-color: #fff;
+		left: -215px;
+		height: 100%;
+		width: 210px;
+		transition: .5s;
+
+		&.show {
+			left: 0;
+		}
+
+		.sidebar__inner {
+			padding-top: 50px;
+
+			.sidebar__brand-select-container {
+				padding: 10px;
+
+				select{
+					width: 100%;
+				}
+			}
+
+			.sidebar__nav {
+				.sidebar__nav-list {
+					.sidebar__nav-item {
+						font-size: 16px;
+						padding: 10px;
+						cursor: pointer;
+						transition: .2s;
+
+						&:hover {
+							background-color: $sas-blue-light;
+						}
+
+						&.selected {
+							color: $sas-blue;
+							border-right: 4px solid $sas-blue;
+						}
+
+						img {
+							vertical-align: middle;
+							margin-right: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#brand-dashboard {
+		background-color: #E7EDF4;
+		min-height: 70vh;
+		display: flex;
+		overflow: hidden;
+
+		.dashboard-loading {
+			width: 100%;
+
+			.dashboard-loading__inner {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;
+				
+				i {
+					font-size: 40px;
+					color: $sas-blue;
+				}
+			}
+		}
+
+		.dashboard-content {
+			padding: 32px;
+			width: 100%;
+			display: none;
+			
+			.dashboard-section {
+				display: none;
+				height: 100%;
+
+				&.selected {
+					display: block;
+				}
+
+				h1 {
+					font-weight: bold;
+					font-size: 28px;
+					color: #605F5F;
+				}
+
+				#campaign-select {
+					cursor: pointer;
+					border-radius: 4px;
+					vertical-align: middle;
+
+					&[disabled] {
+						cursor: default;
+						color: #ccc;
+						border-color: #ccc;
+					}
+				}
+			}
+		}
+
+		#single-campaign {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+
+			.single-campaign__header {
+				margin-bottom: 12px;
+
+				.single-campaign__title {
+					line-height: 1.2em;
+					font-size: 28px;
+					font-weight: bold;
+					color: #605F5F;
+					vertical-align: middle;
+				}
+
+				.timeline-container {
+					margin-top: 32px;
+
+					&>label {
+						font-weight: bold;
+						font-size: 16px;
+						margin-bottom: 12px;
+					}
+
+					select {
+						border-radius: 4px;
+					}
+
+					.timeline-range-container {
+						display: none;
+						margin-top: 6px;
+						
+						input {
+							border-radius: 2px;
+							width: 80px;
+						}
+					}
+				}
+			}
+
+			.single-campaign__body {
+				flex: 1;
+
+				#campaign-loading {
+					height: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-size: 40px;
+					color: $sas-blue;
+				}
+				.campaign-content {
+					flex-direction: column;
+					display: flex;
+					height: 100%;
+
+					.campaign-analytics {
+
+						.campaign-analytics-grid {
+							display: grid;
+							grid-column-gap: 32px;
+							grid-row-gap: 32px;
+							margin-bottom: 32px;
+
+							.analytics-grid__basic-metrics {
+								display: grid;
+								grid-column-gap: 32px;
+								grid-row-gap: 32px;
+							}
+
+							.grid-card {
+								background-color: #fff;
+								border-radius: 4px;
+								padding: 16px;
+								display: flex;
+								flex-direction: column;
+								box-shadow: $sas-box-shadow;
+								transition: $sas-box-shadow-transition;
+
+								&:hover {
+									box-shadow: $sas-box-shadow-hover;
+								}
+
+								.card-title {
+									font-weight: bold;
+									display: flex; 
+									justify-content: space-between;
+								}
+
+								#goal-period-select {
+									border-radius: 4px;
+									border-color: #ccc;
+								}
+
+								.card-body {
+									margin: 16px;
+									flex: 1;
+									display: flex;
+									flex-direction: column;
+									align-items: center;
+									color: #3e3e3e;
+									
+									&.basic-metrics {
+										justify-content: center;
+
+										.primary-metric {
+											font-size: 24px;
+											font-weight: 700;
+										}
+										.metric-achieved {
+											font-size: 18px;
+											font-weight: bold;
+											margin: 8px 0;
+											text-align: center;
+											line-height: 1.5em;
+										}
+										.metric-goal-percentage {
+											// color: red;
+											font-weight: bold;
+
+											&.improvement {
+												color: #6CD47E;
+
+												&::before {
+													content: '';
+													display: inline-block;
+													border-left: 4px solid transparent;
+													border-right: 4px solid transparent;
+													border-bottom: 6px solid #6CD47E;
+													margin-bottom: 1px;
+													margin-right: 3px;
+												}
+											}
+										}
+									}
+
+									&.media-value {
+										justify-content: center;
+
+										.primary-metric {
+											font-size: 36px;
+											font-weight: bold;
+										}
+									}
+
+									&.goal {
+										justify-content: center;
+
+										.goal-content {
+											flex: 1;
+											height: 100%;
+											min-height: 150px;
+											display: none;
+											justify-content: space-between;
+											flex-direction: column;
+
+											.goal__date-range {
+												text-align: center;
+												font-size: 10px;
+											}
+
+											.primary-metric {
+												font-size: 36px;
+												font-weight: bold;
+												text-align: center;
+
+												.subtext {
+													font-size: 16px;
+
+													.subtext-message {
+														font-size: 12px;
+														color: #c54343;
+													}
+												}
+											}
+											.goal__progress-bar {
+												border: 1px solid #929292;
+												width: 100%;
+												height: 10px;
+												border-radius: 5px;
+												padding: 1px;
+
+												.progress-bar-inner {
+													height: 100%;
+													border-radius: 5px;
+													transition: 1.5s;
+													width: 0%;
+													background: rgb(255,218,0);
+													background: linear-gradient(57deg, rgba(255,218,0,1) 0%, rgba(255,252,0,1) 100%);
+
+													&.full {
+														background: rgb(185,255,0);
+														background: linear-gradient(57deg, rgba(185,255,0,1) 0%, rgba(50,212,0,1) 100%);
+													}
+												}
+											}
+										}
+
+										.goal-loading {
+											font-size: 24px;
+										}
+									}
+
+									&.audience-demographics {
+										align-items: flex-start;
+										
+										.demographics-section {
+											.section-title {
+												font-weight: bold;
+												font-size: 15px;
+												display: block;
+												margin-bottom: 8px;
+											}
+
+											table {
+												text-align: left;
+
+												td {
+													padding: 0 4px 4px 16px;
+												}
+											}
+										}
+									}
+
+									&.influencer-count {
+										.count-compare {
+											display: flex;
+											flex-direction: column;
+											flex: 1;
+											width: 100%;
+											align-items: center;
+											justify-content: space-around;
+											margin-top: 16px;
+
+											.count-compare__section {
+												display: flex;
+												flex-direction: column;
+												align-items: center;
+												justify-content: center;
+												flex: 1;
+												padding: 16px 0;
+												width: 100%;
+
+												&:first-child {
+													border-bottom: 1px solid #d6d6d6;
+												}
+
+												.count {
+													font-size: 36px;
+													font-weight: bold;
+													margin-bottom: 24px;
+												}
+												.trend {
+
+												}
+												.title {
+													font-size: 16px;
+													font-weight: bold;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+
+						.campaign-analytics__no-influencers {
+					    display: flex;
+					    min-height: 100px;
+					    align-items: center;
+					    justify-content: center;
+					    font-size: 18px;
+					    background-color: #fff;
+					    margin: 12px 0;
+					    border-radius: 4px;
+						}
+					}
+
+					.campaign-orders {
+						display: flex;
+						background-color: #fff;
+						border-radius: 3px;
+						padding: 10px;
+						flex-direction: column;
+						min-height: 150px;
+						overflow: auto;
+						max-height: 80vh;
+
+						.campaign-orders-table-title {
+							font-size: 16px;
+							font-weight: bold;
+							color: #605f5f;
+							margin-bottom: 20px;
+						}
+
+						.campaign-orders-table {
+							flex: 1;
+							min-width: 900px;
+
+							.tablesorter-header {
+								text-align: left;
+								font-size: 12px;
+								color: #A8A8A8;
+								font-weight: bold;
+								cursor: pointer;
+								transition: .2s;
+								padding-bottom: 12px;
+
+								&:hover {
+									color: $sas-blue;
+								}
+
+								.tablesorter-header-inner::after {
+									display: inline-block;
+									content: '';
+									margin-left: 6px;
+									border: 2px solid;
+									height: 6px;
+									width: 6px;
+								}
+
+								&.tablesorter-headerAsc .tablesorter-header-inner::after {
+									transform: rotate(45deg);
+									border-width: 2px 0 0 2px;
+									margin-top: 3px;
+								}
+								&.tablesorter-headerDesc .tablesorter-header-inner::after {
+									transform: rotate(45deg);
+									border-width: 0 2px 2px 0;
+									margin-bottom: 3px;
+								}
+								&.tablesorter-headerUnSorted .tablesorter-header-inner::after {
+									margin-bottom: 3px;
+									border-width: 1.5px;
+									height: 0;
+								}
+							}
+
+							tr.cancelled {
+								background-color: #f2f2f2;
+							}
+
+							tr:not(.tablesorter-headerRow) {
+								border-bottom: 1px solid #e7e7e7;
+
+								&:first-child {
+									border-top: 1px solid #e7e7e7;
+								}
+							}
+
+							td {
+								padding: 6px;
+							}
+
+							td.influencer-cell {
+								min-width: 210px;
+
+								.influencer-info {
+									.profile-pic {
+										margin: 0 auto;
+										width: 75px;
+
+										img {
+											border-radius: 50px;
+											border: 1px solid;
+										}
+									}
+								}
+
+								&>div {
+									display: inline-block;
+									text-align: center;
+									width: 100%;
+								}
+
+								.accordion-body {
+									section {
+										margin-bottom: 12px;									
+									}
+								}
+							}
+							td.status-cell {
+
+							}
+							td.order-date-cell {
+
+							}
+							td.action-cell {
+
+							}
+						}
+
+						.campaign-no-orders {
+							flex: 1;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							font-size: 20px;
+						}
+					}
+
+					.campaign__not-a-member {
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						text-align: center;
+					}
+				}
+			}
+
+			.campaigns__no-campaigns {
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex: 1;
+
+				p {
+					font-size: 20px;
+				}
+			}
+		}
+
+		#account-settings {
+			padding: 20px;
+			border-radius: 4px;
+			background-color: #fff;
+
+			&>section {
+				margin-bottom: 36px;
+				padding-top: 24px;
+				border-top: 1px solid #ccc;
+			}
+
+			#settings-users {
+				display: flex;
+				flex-wrap: wrap;
+
+				&>div {
+					flex-grow: 1;
+					flex-shrink: 1;
+					flex-basis: 400px;
+				}
+			}
+
+			.brand-user-table {
+				margin-bottom: 10px;
+
+				th {
+					text-align: left;
+				}
+
+				tr:nth-child(even) {
+					background-color: $sas-blue-light;
+				}
+
+				td {
+					padding: 5px 8px 5px 5px;
+				}
+			}
+		}
+
+		// Tables
+		.dashboard-table-status {
+			&>img {
+				vertical-align: middle;
+			}
+			.status-indicator {
+				display: inline-block;
+				width: 8px;
+				height: 8px;
+				border-radius: 4px;
+			}
+			&.green {
+				.status-indicator {
+					background-color: #6CD47E;
+				}
+			}
+			&.yellow {
+				.status-indicator {
+					background-color: #FFD061;
+				}
+			}
+			&.red {
+				.status-indicator {
+					background-color: #FF6161;
+				}
+				.status-message {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+
+	@media screen and (min-width: $breakpoint-tablet) {
+		display: grid;
+		grid-template-columns: 210px 1fr;
+
+		.sidebar-hamburger-container {
+			display: none;
+		}
+		.sidebar__toggle {
+			display: none;
+		}
+
+		#dashboard-sidebar {
+			position: static;
+			box-shadow: $sas-box-shadow;
+
+			.sidebar__inner {
+				padding-top: 0;
+				position: fixed;
+				top: 90px;
+				width: inherit;
+
+				.sidebar__brand-select-container {
+					label {
+						font-weight: bold;
+						font-size: 20px;
+						display: block;
+						margin-bottom: 12px;
+					}
+					#sidebar-brand-select {
+						padding: 5px;
+						border-radius: 4px;
+						cursor: pointer;
+					}
+				}
+
+				.sidebar__single-brand-title {
+					font-size: 20px;
+					font-weight: bold;
+				}
+			}
+		}
+
+		#brand-dashboard {
+			#single-campaign {
+				.single-campaign__body {
+					.campaign-content {
+						.campaign-analytics {
+							.campaign-analytics-grid {
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (min-width: $breakpoint-desktop) {
+
+		#brand-dashboard {
+			#single-campaign {
+				.single-campaign__body {
+					.campaign-content {
+						.campaign-analytics {
+							.campaign-analytics-grid {
+								margin-bottom: 32px;
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 32px;
+								grid-row-gap: 32px;
+
+								.analytics-grid__basic-metrics {
+									grid-template-columns: repeat(2, 1fr);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

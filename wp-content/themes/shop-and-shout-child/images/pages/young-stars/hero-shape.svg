@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="589" height="695" viewBox="0 0 589 695">
+  <defs>
+    <linearGradient id="large-and-small-swoop-together-a" x1="46.254%" x2="76.858%" y1="70.165%" y2="30.98%">
+      <stop offset="0%" stop-color="#80CCFF"/>
+      <stop offset="100%" stop-color="#ABD1D8"/>
+      <stop offset="100%" stop-color="#FBD1A1"/>
+      <stop offset="100%" stop-color="#6DDFFD"/>
+    </linearGradient>
+    <linearGradient id="large-and-small-swoop-together-b" x1="14.816%" x2="50%" y1="68.879%" y2="89.809%">
+      <stop offset="0%" stop-color="#00C9FF"/>
+      <stop offset="100%" stop-color="#09F"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-66.509 -39.491)">
+    <path fill="url(#large-and-small-swoop-together-a)" fill-rule="nonzero" d="M247.462253,705.690434 C206.574229,868.584411 309.902768,797.311868 404.219183,762.035682 C436.016327,750.142927 470.978728,725.594834 487.416667,679.600641 C519.736802,589.167255 519.759052,334.906683 432.858961,354.335399 C323.119438,378.87045 288.350276,542.796456 247.462253,705.690434 Z" opacity=".365" transform="rotate(93 372.773 580.78)"/>
+    <path fill="url(#large-and-small-swoop-together-b)" d="M-39,286.630661 C130.61067,289.982429 246.879713,283.137049 309.807128,266.094522 C562.631627,197.622484 562.631627,28.6073069 614.476177,40.6073069 C746.737753,71.220725 709.359043,597.566145 546.092612,671.925504 C399.859452,718.032382 204.828581,693.845767 -39,599.365658 L-39,286.630661 Z" opacity=".192" transform="rotate(90 327.813 367.304)"/>
+  </g>
+</svg>
